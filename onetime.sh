@@ -15,7 +15,7 @@ expect {
 spawn su - root 
 expect {
         "Password:"
-        {send "233131\n"}
+        {send "2ss33131\n"}
 }
 interact
 #expect eof
